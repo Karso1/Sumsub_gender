@@ -1,0 +1,14 @@
+{
+  "name": "sumsub-gender-excel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Fill blank Sumsub document gender from user-provided Excel values",
+  "scripts": {
+    "preview": "node app/launch.mjs --preview",
+    "apply": "node app/launch.mjs"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
